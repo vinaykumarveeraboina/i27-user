@@ -47,3 +47,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka-dev.i27carts.in/eureka/
+  instance:
+    preferIpAddress: true
