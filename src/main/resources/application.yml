@@ -32,9 +32,9 @@ spring:
     activate:
       on-profile: dev
   datasource:
-    password: Gcp@db2024
+    password: cartinstance
     url: jdbc:mysql://34.121.211.164:3306/learnerCrownClothing?useSSL=FALSE
-    username: db_user
+    username: cartinstance
   jpa:
     hibernate:
       ddl-auto: update
