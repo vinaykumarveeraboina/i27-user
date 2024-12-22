@@ -107,7 +107,7 @@ pipeline {
             steps {
                 script {
                     imagevalidation()
-                    DockerDeploy('dev', '5761', '8761')
+                    DockerDeploy('dev', '5232', '8232')
                 }
             }
         }
@@ -120,7 +120,7 @@ pipeline {
             steps {
                 script {
                     imagevalidation()
-                    DockerDeploy('test', '6761', '8761')
+                    DockerDeploy('test', '6232', '8232')
                 }
             }
         }
@@ -143,7 +143,7 @@ pipeline {
                }
                 script {
                     imagevalidation()
-                    DockerDeploy('stage', '7761', '8761')
+                    DockerDeploy('stage', '7232', '8232')
                 }
             }
         }
