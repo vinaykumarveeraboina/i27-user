@@ -32,9 +32,9 @@ spring:
     activate:
       on-profile: dev
   datasource:
-    password: cartinstance
-    url: jdbc:mysql://34.121.211.164:3306/learnerCrownClothing?useSSL=FALSE&allowPublicKeyRetrieval=true
-    username: root
+    password: i27@project
+    url: jdbc:mysql://i27project.mysql.database.azure.com/learnerCrownClothing
+    username: i27project
   jpa:
     hibernate:
       ddl-auto: update
@@ -46,6 +46,6 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://34.59.147.191:5761/eureka/
+      defaultZone: http://102.37.240.52/:5761/eureka/
   instance:
     preferIpAddress: true
