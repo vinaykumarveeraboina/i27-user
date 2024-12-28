@@ -1,5 +1,5 @@
-fullname : i27-product-stage
-name : i27-product-stage
+fullname : i27-user-stage
+name : i27-user-stage
 replicas : 
  default: 1
 image :

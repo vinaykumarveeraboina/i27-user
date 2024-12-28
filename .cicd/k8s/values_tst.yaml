@@ -1,8 +1,8 @@
-fullname : i27-product-tst
-name : i27-product-tst
+fullname : i27-user-tst
+name : i27-user-tst
 replicas : 
  default: 1
 image :
- name: i27project.jfrog.io/boutique-docker/product
+ name: i27project.jfrog.io/boutique-docker/user
  tag: random
 targetPort: 8232
